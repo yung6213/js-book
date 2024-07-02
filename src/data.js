@@ -1,4 +1,4 @@
-const data = [
+const   data = [
     {
     source: { id: null, name: 'Yahoo Entertainment' },
     author: 'Yaël Bizouati-Kennedy',
@@ -116,7 +116,7 @@ const data = [
       ' / Plus, in this weeks Installer: an AI app for reading anything, The Bear is back, an easy way to make website… [+10196 chars]'
   },
   {
-    source: { id: null, name: 'Motor Authority' },
+    source: { id: null, name: 'Motor Authority' },  
     author: 'news@motorauthority.com (Stephen Edelstein), Stephen Edelstein',
     title: 'Cyber-Hummer EV aims for 300 miles of range with 1,000 hp for $98,900',
     description: 'A conversion morphs the Hummer H1 into an electric SUV dubbed the Cyber-Hummer The Cyber-Hummer uses Tesla powertrain components for 1,000 hp Cyber-Hummers cost $98,900 and are said to have about 300 miles of range A Canadian EV conversion shop announced plan…',
