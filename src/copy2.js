@@ -1,0 +1,12 @@
+const reference = [{a:'b', c:'d'}];
+const arr = reference;
+let a = arr === reference;
+let b = arr[0] === reference[0];
+console.log(a);
+console.log(b);
+const reference2 = [{a: 'b', c:'d'}];
+const arr2 = [...reference2];
+let a2 = arr2 === reference2;
+let b2 = arr2[0] === reference2[0];
+console.log(a2);
+console.log(b2);
