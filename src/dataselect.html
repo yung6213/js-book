@@ -13,11 +13,11 @@
     <script>
         let str = '';
         data.forEach((d) => {
-            str += '<p>'+d.title+'</p>'
-                    + '<p>'+d.author+'</p>'
-                    + '<p>'+d.description+'</p>'
-                    + '<a href ='+ d.url +'>'+d.url+'</a>'
-                    + '<hr/>'
+            str += `<p>${d.title}</p>`
+                    +` <p>${d.author}</p>`
+                    + `<p>${d.description}</p>`
+                    + `<a href = ${d.url}>${d.url}</a>`
+                    + `<hr/>`
         });
         document.getElementById('wrapper').innerHTML = str;
         //document.getElementById('wrapper').innerHTML = '<p style = "color:blue;">안녕하세요</p>';

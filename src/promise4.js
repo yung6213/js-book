@@ -2,11 +2,11 @@ const data = {
     setReject: true
 }
 
-const pm = (ms, data) => new Promise((resolve, reject) => {
+const setTimeoutPromise = (ms, data) => new Promise((resolve, reject) => {
     if(data.setReject) { reject('setReject is true');}
     setTimeout(resolve, ms);
 });
-const promise = pm(1000, data);
+const promise = setTimeoutPromise(1000, data);
 promise
     .then(() => {
         console.log('1초 후 실행됩니다');

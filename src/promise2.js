@@ -1,6 +1,6 @@
 const data = {
     id: 1,
-    score: 50
+    score: 40
 }
 
 const setTimeoutPromise = (ms, data) => new Promise((resolve, reject) => {
