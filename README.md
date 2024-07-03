@@ -31,7 +31,24 @@ found 0 vulnerabilities
 
 ## HOW TO USE
 
-- src/ 아래 내용들은
+- src/ 아래 내용 `node filename.js` 로 실행
 ```
 \> node data.js
 ```
+### newsserver/newsapi.js
+
++ 사전작업
+  +  APIkey 세팅
+    - [https://newsapi.org](https://newsapi.org) 가입 후 로그인, apikey 참조
+ ```js
+ // line 5 
+    const API_KEY = 'YOUR_API_KEY';
+  ```
+
+  - newsapi 실행
+  ```
+  newsserver\> node newsapi.js
+  ```
+
+  - 동작 확인
+  ![](링크)
