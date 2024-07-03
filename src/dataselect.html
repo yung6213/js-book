@@ -14,6 +14,8 @@
         let str = '';
         data.forEach((d) => {
             str += '<p>'+d.title+'</p>'
+                    + '<p>'+d.author+'</p>'
+                    + '<p>'+d.description+'</p>'
                     + '<a href ='+ d.url +'>'+d.url+'</a>'
                     + '<hr/>'
         });
